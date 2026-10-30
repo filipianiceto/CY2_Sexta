@@ -1,0 +1,44 @@
+#cabecalho{
+    text-align: right;
+    font-style: italic;
+    color: rgba(0, 0, 139, 0.596);
+    background-color: coral;
+}
+
+h1, h2{
+    text-align: center;
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+}
+
+.titulo{
+    color: coral;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.materia{
+    color: rgb(141, 81, 59);
+    font-size: 20px;
+}
+
+.materia::first-letter{
+    color: rgb(141, 81, 59);
+    font-size: 22px;
+}
+
+#foto_noticia{
+    width: 100%;
+
+}
+
+#div_imagem{
+    width: 500px;
+    text-align: center;
+    font-style: italic;
+}
+
+#foto_noticia:hover{
+    filter:grayscale(100%)
+}
